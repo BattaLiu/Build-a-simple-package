@@ -1,8 +1,11 @@
-Package: foofactors
-Title: What the Package Does (one line, title case)
+Package: HW8JiayiLiu
+Title: Make factors less annoying
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.0)
-License: What license is it under?
+Authors@R: person("Jiayi", "Liu", email = "jiayi.liu@alumni.ubc.ca", role = c("aut", "cre"))
+Description: This package is based on the two functions fbind() and freq_out() created in class and add some tests.
+Depends: 
+    R (>= 3.2.2)
+License: MIT + file LICENSE
 LazyData: true
+Suggests: testthat
+Imports: dplyr
