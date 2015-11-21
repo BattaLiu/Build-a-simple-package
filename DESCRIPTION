@@ -4,12 +4,15 @@ Version: 0.0.0.9000
 Authors@R: person("Jiayi", "Liu", email = "jiayi.liu@alumni.ubc.ca", role = c("aut", "cre"))
 Description: This package is based on the two functions fbind() and freq_out()
     created in class and add some tests.
-Depends:
+Depends: 
     R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
-Suggests:
-    testthat
-Imports:
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+Imports: 
     dplyr
 RoxygenNote: 5.0.1
+VignetteBuilder: knitr
